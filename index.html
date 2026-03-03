@@ -1,11 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic-tac-toe-game</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/home.css">
+
+		<title>Tic-tac-toe-game</title>
+	</head>
+	<body>
+		<main>
+			<article class="article-top">
+				<svg
+					width="31"
+					height="31"
+					viewBox="0 0 31 31"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						fill-rule="evenodd"
+						clip-rule="evenodd"
+						d="M26.9254 0.878511C25.7538 -0.293061 23.8543 -0.29306 22.6827 0.878513L15.2444 8.31685L7.80605 0.878512C6.63447 -0.293061 4.73498 -0.29306 3.5634 0.878513L0.878756 3.56316C-0.292817 4.73473 -0.292815 6.63423 0.878758 7.8058L8.31709 15.2441L0.878756 22.6825C-0.292817 23.8541 -0.292815 25.7535 0.878757 26.9251L3.56341 29.6098C4.73498 30.7813 6.63447 30.7813 7.80605 29.6098L15.2444 22.1714L22.6827 29.6098C23.8543 30.7813 25.7538 30.7813 26.9254 29.6098L29.61 26.9251C30.7816 25.7535 30.7816 23.8541 29.61 22.6825L22.1717 15.2441L29.61 7.8058C30.7816 6.63423 30.7816 4.73473 29.61 3.56316L26.9254 0.878511Z"
+						fill="#31C3BD"
+					/>
+				</svg>
+				<svg
+					width="32"
+					height="32"
+					viewBox="0 0 32 32"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						fill-rule="evenodd"
+						clip-rule="evenodd"
+						d="M31.7412 15.8706C31.7412 7.10551 24.6357 0 15.8706 0C7.10551 0 0 7.10551 0 15.8706C0 24.6357 7.10551 31.7412 15.8706 31.7412C24.6357 31.7412 31.7412 24.6357 31.7412 15.8706ZM9.4048 15.8706C9.4048 12.2996 12.2996 9.4048 15.8706 9.4048C19.4416 9.4048 22.3364 12.2996 22.3364 15.8706C22.3364 19.4416 19.4416 22.3364 15.8706 22.3364C12.2996 22.3364 9.4048 19.4416 9.4048 15.8706Z"
+						fill="#F2B137"
+					/>
+				</svg>
+			</article>
+            <form class="form-pick-player">
+                <h3>PICK PLAYER 1’S MARK</h3>
+                <div class="radios">
+                    <input type="radio" name="radios" id="croix" checked>
+                    <input type="radio" name="radios" id="rond">
+                </div>
+                <p>REMEMBER : X GOES FIRST</p>
+            </form>
+		</main>
+	</body>
 </html>
