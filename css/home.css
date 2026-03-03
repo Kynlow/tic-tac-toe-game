@@ -8,26 +8,27 @@ main {
 	align-items: center;
 	width: 327px;
 	gap: 20px;
-	padding: 30px;
 }
 .article-top {
 	display: flex;
 	gap: 6px;
 }
 .form-pick-player {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	gap: 20px;
 }
 .article-pick-player {
 	display: flex;
 	flex-direction: column;
-	gap: 60px;
+	padding: 30px 0px;
+	gap: 20px;
 	align-items: center;
 	background-color: var(--semidarknavy);
 	border-radius: 15px;
 	box-shadow: 0px -8px 0px 0px #10212a inset;
-	padding: 30px;
 	width: 100%;
 }
 
@@ -42,9 +43,10 @@ h3 {
 	background-color: var(--darknavy);
 	border-radius: 10px;
 	padding: 12px;
-	width: 100%;
+	width: 80%;
 	height: 72px;
 	display: flex;
+	justify-self: center;
 	justify-content: space-evenly;
 }
 input[type="radio"] {
@@ -70,12 +72,45 @@ input[type="radio"] {
 #rond:checked {
 	content: url(../assets/rond-navy.svg);
 	background-color: var(--silver);
-	background-size: 50%;
 }
 p {
 	font-weight: 400;
 	font-size: 14px;
 	letter-spacing: 0.88px;
 	text-align: center;
-    color: var(--silver);
+	color: var(--silver);
+}
+.article-select-game {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 100%;
+}
+.article-select-game button:nth-child(1) {
+	background-color: var(--lightyellow);
+	box-shadow: 0px -8px 0px 0px #cc8b13 inset;
+}
+.article-select-game button:nth-child(2) {
+	background-color: var(--lightblue);
+	box-shadow: 0px -8px 0px 0px #118c87 inset;
+}
+.game-mode {
+	width: 100%;
+	padding: 8px 0px;
+
+	border: 0px;
+	border-radius: 15px;
+	height: 56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 12px;
+}
+a {
+	color: var(--darknavy);
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-align: center;
+    text-decoration: none;
 }

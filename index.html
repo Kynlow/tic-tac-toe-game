@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/main.css" />
-        <link rel="stylesheet" href="css/home.css">
+		<link rel="stylesheet" href="css/home.css" />
 
 		<title>Tic-tac-toe-game</title>
 	</head>
@@ -48,19 +48,38 @@
 					/>
 				</svg>
 			</article>
-            <form class="form-pick-player">
-                <article class="article-pick-player">
-
-                
-                <h3>PICK PLAYER 1’S MARK</h3>
-                <div class="radios">
-                    <input type="radio" name="radios" id="croix" checked>
-                    <input type="radio" name="radios" id="rond">
-                </div>
-                <p>REMEMBER : X GOES FIRST</p>
-                </article>
-                
-            </form>
+			<form class="form-pick-player">
+				<article class="article-pick-player">
+					<h3>PICK PLAYER 1’S MARK</h3>
+					<div class="radios">
+						<input
+							type="radio"
+							name="radios"
+							id="croix"
+							value="croix"
+						/>
+						<input
+							type="radio"
+							name="radios"
+							id="rond"
+							checked
+							value="rond"
+						/>
+					</div>
+					<p>REMEMBER : X GOES FIRST</p>
+				</article>
+				<article class="article-select-game">
+					<button type="submit" class="game-mode">
+						<a href="gamesolo.html">NEW GAME (VS CPU)</a>
+					</button>
+					<button type="submit" class="game-mode">
+						<a href="gamemulti.html?radios=croix"
+							>NEW GAME (VS PLAYER)</a
+						>
+					</button>
+				</article>
+			</form>
 		</main>
+		<script src=""></script>
 	</body>
 </html>
