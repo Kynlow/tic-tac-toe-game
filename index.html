@@ -57,29 +57,27 @@
 							name="radios"
 							id="croix"
 							value="croix"
+							checked
 						/>
 						<input
 							type="radio"
 							name="radios"
 							id="rond"
-							checked
 							value="rond"
 						/>
 					</div>
-					<p>REMEMBER : X GOES FIRST</p>
+					<p>REMEMBER : YOU GO FIRST</p>
 				</article>
 				<article class="article-select-game">
-					<button type="submit" class="game-mode">
-						<a href="gamesolo.html">NEW GAME (VS CPU)</a>
+					<button type="submit" class="game-mode" value="cpu">
+						NEW GAME (VS CPU)
 					</button>
-					<button type="submit" class="game-mode">
-						<a href="gamemulti.html?radios=croix"
-							>NEW GAME (VS PLAYER)</a
-						>
+					<button type="submit" class="game-mode" value="player">
+						NEW GAME (VS PLAYER)
 					</button>
 				</article>
 			</form>
 		</main>
-		<script src=""></script>
+		<script src="app.js"></script>
 	</body>
 </html>

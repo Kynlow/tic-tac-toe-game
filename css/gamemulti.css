@@ -55,6 +55,10 @@ p {
 	height: 96px;
 	border: 0px;
 	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 8px;
 }
 .bottom {
 	display: flex;
@@ -92,4 +96,17 @@ h2 {
 	letter-spacing: 1.25px;
 	text-align: center;
 	color: var(--darknavy);
+}
+.turnLogo {
+	width: 16px;
+	height: 16px;
+	object-fit: center / cover;
+}
+.pawn-cross {
+	content: url(../assets/croix.svg);
+	width: 80%;
+}
+.pawn-round {
+	content: url(../assets/rond.svg);
+	width: 80%;
 }

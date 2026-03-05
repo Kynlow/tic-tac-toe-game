@@ -105,9 +105,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	padding-bottom: 12px;
-}
-a {
-	color: var(--darknavy);
+    color: var(--darknavy);
 	font-weight: 700;
 	font-size: 16px;
 	letter-spacing: 1px;
