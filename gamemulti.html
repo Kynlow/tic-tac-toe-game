@@ -68,21 +68,36 @@
 				<button class="board-btn" id="8-btn"></button>
 				<button class="board-btn" id="9-btn"></button>
 			</article>
-            <article class="bottom">
-                <div class="data">
-                    <p class="points">X (<span id="player">YOU</span>)</p>
-                    <h2>0</h2>
-                </div>
-                <div class="data">
-                    <p class="points">TIES</p>
-                    <h2>0</h2>
-                </div>
-                <div class="data">
-                    <p class="points">O (<span id="player">CPU</span>)</p>
-                    <h2>0</h2>
-                </div>
-            </article>
+			<dialog id="dialog1">
+				<article class="dialogarticle">
+					<p>PLAYER <span id="winNumber"></span>WINS</p>
+					<div class="dialogrow">
+						<div class="dialogrowlogo"></div>
+						<h2 class="victoryh2">TAKES THE ROUND</h2>
+					</div>
+					<div class="dialogrow">
+						<button id="quit" class="game-mode">QUIT</button>
+						<button id="nextround" class="game-mode">
+							NEXT ROUND
+						</button>
+					</div>
+				</article>
+			</dialog>
+			<article class="bottom">
+				<div class="data">
+					<p class="points">X (<span id="player">P1</span>)</p>
+					<h2>0</h2>
+				</div>
+				<div class="data">
+					<p class="points">TIES</p>
+					<h2>0</h2>
+				</div>
+				<div class="data">
+					<p class="points">O (<span id="player">P2</span>)</p>
+					<h2>0</h2>
+				</div>
+			</article>
 		</main>
-        <script src="gamemulti.js"></script>
+		<script src="gamemulti.js"></script>
 	</body>
 </html>

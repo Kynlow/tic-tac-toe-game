@@ -89,26 +89,11 @@ p {
 .article-select-game button:nth-child(1) {
 	background-color: var(--lightyellow);
 	box-shadow: 0px -8px 0px 0px #cc8b13 inset;
+	width: 100%;
 }
 .article-select-game button:nth-child(2) {
 	background-color: var(--lightblue);
 	box-shadow: 0px -8px 0px 0px #118c87 inset;
-}
-.game-mode {
 	width: 100%;
-	padding: 8px 0px;
-
-	border: 0px;
-	border-radius: 15px;
-	height: 56px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-bottom: 12px;
-    color: var(--darknavy);
-	font-weight: 700;
-	font-size: 16px;
-	letter-spacing: 1px;
-	text-align: center;
-    text-decoration: none;
 }
+
